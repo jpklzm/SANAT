@@ -59,7 +59,9 @@
 
 		});
 
-		$('.field-date').fdatepicker();
+		$('.field-date').fdatepicker({
+        language: "pt-BR"
+    });
 
 		// Waypoint
 		var itemIndex;
